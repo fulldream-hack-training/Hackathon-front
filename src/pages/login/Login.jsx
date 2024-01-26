@@ -1,8 +1,21 @@
 import LoginCSS from './Login.module.css';
 import { CloudMoon } from 'phosphor-react';
+import { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import Typed from 'typed.js';
 
 export default function Login() {
+  const el = useRef(null);
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ['Dreamy'],
+      typeSpeed: 100,
+    });
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
   return (
     <form autoComplete='off' className={LoginCSS.sign_in_form}>
       <div className={LoginCSS.logo}>
@@ -13,7 +26,7 @@ export default function Login() {
 
       <div className={LoginCSS.heading}>
         <h2>
-          Welcome to <span>Dreamy</span>
+          Welcome to <span ref={el}></span>
         </h2>
         <h6>Not Registered yet ? </h6>
         <Link to='/auth/register' className={LoginCSS.toggle}>
@@ -36,7 +49,7 @@ export default function Login() {
 
         <p className={LoginCSS.text}>
           Forgotten your password or you login datails?
-          <Link to='/auth/new-password'>Get help</Link> signing in
+          <Link to='/auth/new-password'> Get help</Link> signing in
         </p>
       </div>
     </form>
