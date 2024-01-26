@@ -1,0 +1,49 @@
+form {
+  max-width: 260px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  transition: opacity 0.02s 0.4s;
+}
+
+.logo {
+  font-size: 1.1rem;
+  margin-top: -9px;
+  letter-spacing: -0.5px;
+  color: #151111;
+}
+
+.logo .icon {
+  color: #8371fd;
+}
+
+.heading h2 {
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: #151111;
+}
+
+.heading h6 {
+  color: #969696;
+  font-weight: 400;
+  font-size: 0.8rem;
+  display: inline;
+}
+
+.toggle {
+  color: #151111;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.toggle:hover {
+  color: #8371fd;
+  cursor: pointer;
+}
