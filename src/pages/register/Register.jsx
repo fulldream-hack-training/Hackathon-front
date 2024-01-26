@@ -36,7 +36,7 @@ export default function Register() {
         </div>
 
         <div className={RegisterCSS.input_wrap}>
-          <input type='password' minlength={4} className={RegisterCSS.input_field} autocomplete='on' required />
+          <input type='password' minLength={4} className={RegisterCSS.input_field} autoComplete='on' required />
           <label>Password</label>
         </div>
 
