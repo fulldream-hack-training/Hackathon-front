@@ -8,6 +8,7 @@ import arrowUp from './arrow-up.svg';
 import bill from './bill.png';
 import binance from './binance.png';
 import card from './card.png';
+import children from './children.png';
 import close from './close.svg';
 import coinbase from './coinbase.png';
 import dropbox from './dropbox.png';
@@ -50,4 +51,5 @@ export {
   people01,
   people02,
   people03,
+  children,
 };
