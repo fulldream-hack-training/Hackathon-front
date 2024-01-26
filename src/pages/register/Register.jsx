@@ -21,26 +21,30 @@ export default function Register() {
 
       <div className={RegisterCSS.actual_form}>
         <div className={RegisterCSS.input_wrap}>
-          <input type='text' minlength={4} className={RegisterCSS.input_field} autocomplete='off' required />
-          <label>Name</label>
+          <input type='text' minLength={4} className={RegisterCSS.input_field} autoComplete='off' required />
+          <label>First Name</label>
         </div>
 
         <div className={RegisterCSS.input_wrap}>
-          <input type='email' className={RegisterCSS.input_field} autocomplete='off' required />
+          <input type='text' minLength={4} className={RegisterCSS.input_field} autoComplete='off' required />
+          <label>Last Name</label>
+        </div>
+
+        <div className={RegisterCSS.input_wrap}>
+          <input type='email' className={RegisterCSS.input_field} autoComplete='off' required />
           <label>Email</label>
         </div>
 
         <div className={RegisterCSS.input_wrap}>
-          <input type='password' minlength={4} className={RegisterCSS.input_field} autocomplete='off' required />
+          <input type='password' minlength={4} className={RegisterCSS.input_field} autocomplete='on' required />
           <label>Password</label>
         </div>
 
         <input type='submit' value='Sign Up' className={RegisterCSS.sign_btn} />
 
         <p className={RegisterCSS.text}>
-          By signing up, I agree to the
-          <Link to='/'>Terms of Services</Link> and
-          <Link to='/'>Privacy Policy</Link>
+          Forgotten your password or you login datails?
+          <Link to='/auth/new-password'> Get help</Link> signing in
         </p>
       </div>
     </form>

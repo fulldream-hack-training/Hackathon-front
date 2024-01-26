@@ -48,8 +48,8 @@ export default function Login() {
         <input type='submit' value='Sign In' className={LoginCSS.sign_btn} />
 
         <p className={LoginCSS.text}>
-          Forgotten your password or you login datails?
-          <Link to='/auth/new-password'> Get help</Link> signing in
+          Forgotten your password or you login details?
+          <Link to='/auth/new-password'>Get help</Link> signing in
         </p>
       </div>
     </form>
