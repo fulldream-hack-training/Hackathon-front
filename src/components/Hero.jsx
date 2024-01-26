@@ -10,7 +10,7 @@ const Hero = () => {
           <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]'>
             Welcome to
             <br className='sm:block hidden' />
-            <span className='text-[#8371fd]'>Dreamy</span>
+            <span className='text-[#00f6ff]'>Dreamy</span>
           </h1>
         </div>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
