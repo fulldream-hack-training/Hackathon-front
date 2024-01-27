@@ -1,11 +1,4 @@
-import {
-  people01,
-  people02,
-  people03,
-  send,
-  shield,
-  star,
-} from '../assets';
+import { people01, people02, people03, send, shield, star } from '../assets';
 
 export const navLinks = [
   {

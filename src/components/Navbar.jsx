@@ -1,6 +1,6 @@
-import { Button } from '@mui/material';
 import { close, logo, menu } from '../assets';
 import { navLinks } from '../constants';
+import { Button } from '@mui/material';
 import { useState } from 'react';
 
 const Navbar = () => {
