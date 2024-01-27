@@ -19,7 +19,7 @@ export default function Login() {
   return (
     <form autoComplete='off' className={LoginCSS.sign_in_form}>
       <div className={LoginCSS.logo}>
-        <h1>
+        <h1 className='font-bold'>
           <CloudMoon className={LoginCSS.icon} /> Dreamy
         </h1>
       </div>
@@ -49,7 +49,7 @@ export default function Login() {
 
         <p className={LoginCSS.text}>
           Forgotten your password or you login details?
-          <Link to='/auth/new-password'>Get help</Link> signing in
+          <Link to='/auth/new-password'> Get help</Link> signing in
         </p>
       </div>
     </form>

@@ -19,7 +19,7 @@ export default function AuthLayout() {
               <ambientLight intensity={2} />
               <directionalLight position={[1, 6, 10]} />
               <Sphere args={[1, 100, 200]} scale={1.8}>
-                <MeshDistortMaterial color='#8371fd' attach='material' distort={0.5} speed={2} />
+                <MeshDistortMaterial color='#00f6ff' attach='material' distort={0.5} speed={2} />
               </Sphere>
             </Canvas>
 

@@ -1,3 +1,5 @@
 export default function Register() {
-  return <>Register</>;
+  return (
+    <>Register</>
+  );
 }

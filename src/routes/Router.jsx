@@ -12,7 +12,7 @@ export default function Router() {
       <Route path='*' element={<NotFound />} />
       <Route path='/auth' element={<AuthLayout />}>
         <Route path='login' element={<Login />} />
-        <Route path='signup' element={<Register />} />
+        <Route path='register' element={<Register />} />
       </Route>
     </Routes>
   );
