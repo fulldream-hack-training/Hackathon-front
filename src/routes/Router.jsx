@@ -1,8 +1,8 @@
 import AuthLayout from '../layouts/AuthLayout';
 import HomePage from '../pages/HomePage';
 import NotFound from '../pages/NotFound';
-import Register from '../pages/Register';
 import Login from '../pages/login/Login';
+import Register from '../pages/register/Register';
 import { Route, Routes } from 'react-router-dom';
 
 export default function Router() {
