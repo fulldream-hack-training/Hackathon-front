@@ -1,6 +1,6 @@
 import AuthLayout from '../layouts/AuthLayout';
 import HomePage from '../pages/HomePage';
-import NotFound from '../pages/NotFound';
+import NotFound from '../pages/notFound/NotFound';
 import Login from '../pages/login/Login';
 import Register from '../pages/register/Register';
 import { Route, Routes } from 'react-router-dom';
