@@ -5,7 +5,6 @@ import {
   send,
   shield,
   star,
-  twitter,
 } from '../assets';
 
 export const navLinks = [
